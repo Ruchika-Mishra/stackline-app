@@ -23,17 +23,24 @@ const App: React.FC = () => {
   }
 
   return (
-    <div className="app-container">
-      <ProductImage
-        image={product.image}
-        title={product.title}
-        subtitle={product.subtitle}
-        brand={product.brand}
-        retailer={product.retailer}
-      />
-      <div className="content">
-        <SalesGraph />
-        <SalesTable />
+    <div className="app-wrapper">
+      <div className="banner">
+        <div className="banner-content">
+          <span className="banner-symbol">S</span>
+        </div>
+      </div>
+      <div className="app-container">
+        <ProductImage
+          image={product.image}
+          title={product.title}
+          subtitle={product.subtitle}
+          brand={product.brand}
+          retailer={product.retailer}
+        />
+        <div className="content">
+          <SalesGraph />
+          <SalesTable />
+        </div>
       </div>
     </div>
   );

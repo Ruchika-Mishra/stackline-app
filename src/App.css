@@ -14,6 +14,33 @@ body, html {
   pointer-events: none;
 }
 
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+}
+
+.banner-symbol {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .app-container {
   display: flex;
   justify-content: center;

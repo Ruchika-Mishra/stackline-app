@@ -19,6 +19,12 @@ const ProductImage: React.FC<ProductImageProps> = ({ image, title, subtitle, bra
         <p><strong>Brand:</strong> {brand}</p>
         <p><strong>Retailer:</strong> {retailer}</p>
       </div>
+      <div className="tags-container">
+        <div className="tag">Pantry</div>
+        <div className="tag">Obsolete</div>
+        <div className="tag">Blender</div>
+        <div className="tag">Lightning Deal</div>
+      </div>
     </div>
   );
 };
