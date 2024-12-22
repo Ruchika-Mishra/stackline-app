@@ -1,0 +1,21 @@
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 200px;
+  border: 1px solid #ccc;
+  background-color: white; 
+  padding: 20px;
+  border-radius: 8px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.product-image {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  text-align: center;
+}
